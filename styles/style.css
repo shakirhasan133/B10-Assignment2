@@ -87,7 +87,7 @@ a,li{
     font-size: 16px;
     font-weight: 400;
     margin: 40px 0;
-    width: 50%;
+    width: 70%;
     color:var(--text-color);
 }
 .hero-des-area span{
@@ -100,5 +100,71 @@ a,li{
 }
 .hero-des-area .download-btn{
     margin-left: 20px;
+}
+.hero-img-area{
+    position: relative;
+}
+.free-video-card {
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 10px;
+    backdrop-filter:blur(10px);
+    width: 180px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    right: -100px;
+    top: 150px;
+    z-index: 1;
+
+}
+
+.free-video-card h2, p{
+    margin: 0;
+    padding-left: 10px;
+
+}
+.free-video-card  p{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.free-tutorial-card{
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 10px;
+    backdrop-filter:blur(10px);
+    width: 180px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 50px;
+    left: -100px;
+}
+.card2-content1{
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+
+}
+.card2-content2{
+    width: 70%;
+    float: right;
+}
+.card2-content2 h2{
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom:0;
+}
+.card2-content2 p{
+    margin: 0;
+    padding: 0;
 }
 /* hero-area End */
