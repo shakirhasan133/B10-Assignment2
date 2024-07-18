@@ -395,22 +395,22 @@ header{
     border-radius: 10px;
 }
 .team-img-1{
-    background-image: url('/images/trainer1.png');
+    background-image: url('../images/trainer1.png');
 }
 .team-img-2{
-    background-image: url('/images/trainer2.png');
+    background-image: url('../images/trainer2.png');
 }
 .team-img-3{
-    background-image: url('/images/trainer3.png');
+    background-image: url('../images/trainer3.png');
 }
 .team-img-4{
-    background-image: url('/images/trainer4.png');
+    background-image: url('../images/trainer4.png');
 }
 .team-img-5{
-    background-image: url('/images/trainer5.png');
+    background-image: url('../images/trainer5.png');
 }
 .team-img-6{
-    background-image: url('/images/trainer6.png');
+    background-image: url('../images/trainer6.png');
 }
 
 /* our team end */
