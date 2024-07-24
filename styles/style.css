@@ -221,6 +221,7 @@ header{
 .change-habit-card img{
     width: 100%;
     border-radius: 50%;
+    border: 2px solid var(--Secondary-color);
     
 }
 .change-habit-card h5{
@@ -236,9 +237,14 @@ header{
     justify-content: space-between;
     padding: 50px;
     margin-top: 50px;
+    background-color: var(--Secondary-color);
+    border-radius: 10px;
 }
 .run-extra-text{
-    width: 70%;
+    width: 60%;
+}
+.run-extra-text h3{
+    width: 50%;
 }
 .run-extra-text p{
     width: 60%;
@@ -248,11 +254,12 @@ header{
     margin: 10px 0;
 }
 .run-extra-img{
-    width: 30%;
+    width: 40%;
 }
 .run-extra-img img{
     width: 100%;
-    max-height: 312px;
+    max-height: 400px;
+    height: auto;
     border-radius: 10px;
 }
 /* Run Extra Section end*/
@@ -260,6 +267,7 @@ header{
 /* BMI Calculator part */
 .bmi-calculator-area{
     background: var(--Secondary-color);
+    margin-top: 50px;
 }
 .bmi-calculator-area-content{
     display: flex;
@@ -268,6 +276,7 @@ header{
 }
 .bmi-cal-header {
     text-align: center;
+    margin-top: 50px;
 }
 
 .bmi-calculator-chart{
@@ -454,3 +463,121 @@ footer hr{
     padding: 20px 0;
 }
 /* Footer area end */
+
+.hide{
+    display: none;
+}
+
+
+.hamvarger{
+    display: none;
+}
+
+/* Responsive Area */
+
+/* For mobile device */
+@media screen and (max-width:576px) {
+    
+    .menu-area{
+        display: none;
+    }
+    .hamvarger{
+        display: block;
+    }
+    .hero-area,.run-extra,.bmi-calculator-area-content{
+        flex-direction: column;
+    }
+
+    .header-text{
+        font-size: 18px;
+    }
+
+    .hero-des-area h1 {
+        font-size: 35px;
+        font-weight: 700;
+        margin: 5px 0;
+    }
+    .hero-des-area p {
+        font-size: 14px;
+        margin: 5px 0;
+        width: 80%;
+
+    }   
+    .logo-area h1{
+        font-size: 2rem;
+    }
+    .hero-img-area img {
+        width: 100%;
+    }
+    .hero-des-area .download-btn{
+        margin: 10px 0;
+    }
+    .hero-des-area button{
+        margin-left: 10px;
+    }
+    header{
+        
+    }
+    .free-video-card {
+    right: 0;
+    }
+    .free-tutorial-card{
+        left: 0;
+        bottom: 10px;
+    }
+    .change-habit-img,.our-team-img,.foother-content{
+        grid-template-columns: 1fr;
+    }
+    .run-extra-text,
+    .run-extra-img,
+    .run-extra-text p,
+    .bmi-calculator-chart,
+    .bmi-calculator,
+    .gadget1 p
+    {
+        width: 100%;
+    }
+    .run-extra,.bmi-calculator-area-content{
+        padding: 5px;
+    }
+    .table-head {
+        margin: 20px 0;
+    }
+    .bmi-calculator-chart{
+        padding-left: 20px;
+    }
+    .gadget1 h1{
+        font-size: 40px;
+    }
+    .hero-des-area button{
+        padding: 10px 20px;
+    }
+    .change-habit-card{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .run-extra-text h3{
+        font-size: 30px;
+        width: 80%;
+    }
+    .run-extra-text button{
+        text-align: center;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .run-extra{
+        padding: 30px;
+    }
+    .bmi-calculator{
+    }
+    .nav-container,.hero-des-area h1,.hero-des-area p{
+        padding: 0 10px;
+    }
+    .header-text2{
+        margin-left: 10px;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
