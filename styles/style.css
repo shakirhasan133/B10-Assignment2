@@ -127,6 +127,10 @@ header{
 .download-btn{
     background-color:black ;
     border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.download-btn:hover{
+    background: var(--Primary-color)
 }
 .hero-des-area .download-btn{
     margin-left: 20px;
@@ -271,6 +275,7 @@ header{
     height: auto;
     border-radius: 10px;
 }
+
 /* Run Extra Section end*/
 
 /* BMI Calculator part */
