@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
 
 
 /* Root CSS */
@@ -17,6 +18,7 @@ body{
     background-color: var(--dark-color);
     color: var(--white-color);
     width: 100%;
+    overflow-x: hidden;
 }
 a,li{
     list-style: none;
@@ -119,7 +121,7 @@ header{
     color:var(--text-color);
 }
 .hero-des-area span{
-    font-family: "Arizonia", cursive;
+    font-family: 'Miama Nueva', sans-serif;
     font-weight: 500;
 }
 .download-btn{
@@ -584,8 +586,6 @@ footer hr{
     .run-extra-text,
     .run-extra-img,
     .run-extra-text p,
-    .bmi-calculator-chart,
-    .bmi-calculator,
     .gadget1 p
     {
         width: 100%;
@@ -597,7 +597,7 @@ footer hr{
         margin: 20px 0;
     }
     .bmi-calculator-chart{
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
     .gadget1 h1{
         font-size: 40px;
@@ -612,7 +612,12 @@ footer hr{
     .run-extra-text h3{
         font-size: 30px;
         width: 80%;
+        margin-top: 0;
     }
+    .change-habit-area{
+        padding-bottom: 50px;
+    }
+
     .run-extra-text button{
         text-align: center;
         width: 100%;
@@ -624,10 +629,10 @@ footer hr{
         padding: 30px;
     }
     .bmi-calculator{
-        padding: 0 15px;
+        /* padding: 0 15px; */
     }
     .nav-container,.hero-des-area h1,.hero-des-area p{
-        padding: 0 10px;
+        padding:10px;
     }
     .header-text2{
         margin-left: 10px;
@@ -660,6 +665,59 @@ footer hr{
     .download-btn{
         padding:10px 20px;
         margin: 0 0 0 10px;
+    }
+    .box{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .bmi-calculator-area{
+        width: 100%;
+        
+    }
+    .bmi-calculator-chart, .bmi-calculator{
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bmi-calculator {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bmi-calculator h4{
+        margin-top: 50px;
+    }
+    .bmi-calculator> .input-field-area{
+        margin-top: 0;
+    }
+    .bmi-calculator-area{
+        padding: 20px 0px;
+    }
+    .input-field-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-section{
+        margin: 10px 0;
+    }
+    .bmi-calculator-area button{
+        margin-top: 10px;
+    }
+    .bmi-calculator p{
+        margin-bottom: 10px;
+    }
+    .header-text{
+        margin-top: 50px;
+    }
+    .description{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer-area{
+        margin-top: 50px;
+        padding-top: 20px;
     }
     
 }
